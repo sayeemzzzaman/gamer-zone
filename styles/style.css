@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-pink {
+    color: #FF42A5;
+}
+
+.text-purple {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-primary {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.btn-pink {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-blue {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+/* nav section  */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 130px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us-menu {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 30px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner-title-goat {
+    font-size: 95px;
+    font-weight: 800;
+
+}
+
+.banner-desc {
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 17px;
+}
+.banner-btn-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
