@@ -107,8 +107,98 @@
     color: #534C64;
     margin-top: 17px;
 }
-.banner-btn-container{
+
+.banner-btn-container {
     display: flex;
     gap: 24px;
     margin-top: 40px;
+}
+
+/* funny videos */
+.funny-videos {
+    /* align-items: center; */
+    text-align: center;
+}
+
+.funny-videos .title-primary {
+    margin-bottom: 15px;
+}
+
+.funny-desc {
+    color: #534C64;
+}
+
+.funny-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin: 48px 240px;
+}
+
+.funny-cards-container p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 24px;
+    max-width: 340px;
+}
+.card{
+    position: relative;
+}
+.watch-now{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.511);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    opacity: 0;
+    /* background-color: saddlebrown; */
+}
+.watch-now p{
+    color: #F948B2;
+    text-align: center;
+}
+.watch-now i{
+    font-size: 100px;
+}
+.card:hover .watch-now{
+    opacity: 1;
+}
+
+/* picture section */
+.picture{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 240px;
+}
+.picture-title{
+    text-align: right;
+}
+.desc{
+    max-width: 353px;
+    color: #534C64;
+    text-align: right;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.picture-img-container{
+    /* position: absolute; */
+    margin-top: 100px;
+}
+.up-img{
+    width: 318.5px;
+height: 365.083px;
+position:absolute;
+right: 900px;
+top: 2300px;
 }
