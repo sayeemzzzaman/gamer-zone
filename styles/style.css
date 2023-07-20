@@ -187,7 +187,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 240px;
+    margin-left:240px;
+    margin-right:240px;
+    margin-bottom: 300px;
 }
 
 .picture-title {
