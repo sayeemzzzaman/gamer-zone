@@ -213,7 +213,7 @@
     height: 365.083px;
     position: absolute;
     right: 900px;
-    top: 2000px;
+    top: 2400px;
 }
 
 /* categories section */
@@ -311,7 +311,8 @@
 }
 
 @media screen and (max-width:576px) {
-    .nav,.menu,.funny-cards-container,.banner,.picture,.cat-row, .footer-container{
+    .nav,.menu,.funny-cards-container,.banner,.picture,.cat-row, .footer-container
+    {
         flex-direction: column;
     }
     .nav{
