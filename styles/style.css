@@ -213,7 +213,7 @@
     height: 365.083px;
     position: absolute;
     right: 900px;
-    top: 2300px;
+    top: 2000px;
 }
 
 /* categories section */
@@ -314,6 +314,10 @@
     .nav,.menu,.funny-cards-container,.banner,.picture,.cat-row, .footer-container{
         flex-direction: column;
     }
+    .nav{
+        margin-top: 25px;
+        padding-bottom: 80px;
+    }
     .banner{
         /* flex-direction: column-reverse; */
         margin-top: 100px;
@@ -328,9 +332,23 @@
     .funny-videos-container{
         margin-top: 400px;
     }
+    .funny-cards-container{
+        margin: 30px 30px;
+    }
+    .picture{
+        margin: 0 30px;
+    }
     .picture-img{
-        width: 350px;
+        width: 310px;
+        /* margin-left: 60px; */
         /* height: 50px; */
+    }
+    .up-img{
+        visibility: hidden;
+        right: 200px;
+        top: 3850px;
+        width: 200px;
+        height: 200px;
     }
     .picture h2, .picture p{
         text-align: center;
@@ -338,7 +356,7 @@
     .footer-container,.sub-section{
         /* margin-left: 20px; */
         justify-content: center;
-        padding-left: 30px;
+        /* padding-left: 0px; */
         text-align: center;
     }
     .footer-logo{
@@ -359,7 +377,7 @@
         margin-top: 100px;
     }
     .banner-content{
-        margin-top: 800px;
+        /* margin-top: 800px; */
     }
     .banner-img{
         height: 300px;
@@ -367,6 +385,9 @@
     }
     .funny-videos-container{
         margin-top: 400px;
+    }
+    .picture{
+        margin: 0 40px;
     }
     .picture-img{
         width: 350px;
